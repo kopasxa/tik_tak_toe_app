@@ -55,7 +55,8 @@ const Game = () => {
             setWinner(players.second);
             return true;
         } else if (table.flat().every((cell) => cell !== "")) {
-            return false;
+            setWinner('draw');
+            return true;
         } else {
             return false;
         }
@@ -65,9 +66,10 @@ const Game = () => {
     let key = 0;
 
     if (winner !== 'pending') {
+        winner === 'draw' ? alert('Friendship won!') : alert(`Winner is ${winner} ! \nCongrats!!`);
         setWinner('pending');
         setTable(emptyTable);
-        alert(`Winner is ${winner} ! \nCongrats!!`);
+        
     }
 
     for (let i = 0; i < table.length; i++) {
