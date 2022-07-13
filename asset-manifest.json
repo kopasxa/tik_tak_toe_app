@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/tik_tak_toe_app/static/js/main.d4086966.js",
+    "index.html": "/tik_tak_toe_app/index.html",
+    "main.d4086966.js.map": "/tik_tak_toe_app/static/js/main.d4086966.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.d4086966.js"
+  ]
+}
