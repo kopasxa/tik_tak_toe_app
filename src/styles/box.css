@@ -1,0 +1,16 @@
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    padding: 1%;
+    margin: 20px 0;
+    position: relative;
+    border: 2px solid gray;
+    cursor: pointer;
+}
+
+.box:hover {
+    background-color: #ccc;
+}
